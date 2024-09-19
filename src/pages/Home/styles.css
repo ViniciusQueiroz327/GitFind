@@ -1,0 +1,78 @@
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 90vh;
+    position: absolute;
+    left: 0;
+}
+
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid #999999;
+    background: transparent;
+    font-size: 18px;
+    padding: .5rem;
+    margin-right: .5rem;
+    min-width: 20vw;
+}
+
+button {
+    min-width: 5vw;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    padding: .8rem;
+    background-color: #2D333B;
+    border: none;
+    box-shadow: inset 1px 1px 2px 0 #000000, inset -1px -1px 2px 0 #FFFFFF, 2px 2px 4px 0 #000000 ;
+}
+
+.profileInfos {
+    display: flex;
+    margin: 40px 0;
+}
+
+.profilePicture {
+    max-width: 10rem;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-right: 32px;
+}
+
+.profileInfos h3 {
+    color: #999999;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.profileInfos span {
+    display: block;
+    color: #999999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.profileInfos p {
+    color: #999999;
+    font-size: 1rem;
+}
