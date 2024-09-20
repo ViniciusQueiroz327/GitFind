@@ -45,7 +45,7 @@ function App() {
             <>
             <div className='profileInfos'>
               <img src={currentUser.avatar_url} className="profilePicture" alt="profile"/>
-              <div>
+              <div className='profileInfosSecond'>
                 <h3>{currentUser.name}</h3>
                 <span>@{currentUser.login}</span>
                 <p>{currentUser.bio}</p>
